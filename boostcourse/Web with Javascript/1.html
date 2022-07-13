@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* css 우선순위는 id > class > 태그 순 */
+        span{
+            color:blue;
+        }
+        .js{
+            font-weight: bold;
+        }
+        #first{
+            color: green;
+        }
+        
+    </style>
+</head>
+<body style="background-color: white; color:black; font-size: large;">
+    <h1>TEST</h1>
+    <p>TEST 문단</p>
+    <span class="js" id="first">JavaScript</span> is wonderful!
+
+    <input type="button" value="night" 
+        onclick="document.querySelector('body').style.backgroundColor = 'black';"
+        onmouseover="document.querySelector('body').style.backgroundColor = 'gray'"
+    >
+    <script>
+        
+    </script>
+</body>
+</html>
