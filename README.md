@@ -4,9 +4,9 @@
 <br>
 
 ### boostcourse 자바스크립트의 시작
-- [x] 웹과 Javascript
-- [x] Javascript 제어문
-- [x] Javascript 함수
+- [x] 웹과 Javascript 2022.07.13
+- [x] Javascript 제어문 2022.07.13
+- [x] Javascript 함수 2022.07.13
 - [ ] Javascript 객체 소개
 - [ ] Javascript 활용
 - [ ] Javascript 객체 기본
