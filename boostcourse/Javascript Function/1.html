@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input id="night_day" type="button" value="night" onclick="nightDayHandler(this)">
+
+    <script>
+        function two(){
+            document.write('2');
+            document.write('3');
+        }
+
+        function onePlusOne(){
+            document.write(1+1);
+        }
+
+        function sum(left, right){
+            document.write(left + right);
+        }
+
+        function nightDayHandler(self){
+            if(self.value == 'night'){
+                document.querySelector('body').style.backgroundColor = 'black';
+                document.querySelector('body').style.color = 'white';
+                document.querySelector("#night_day").value = 'day';
+            } else{
+                document.querySelector('body').style.backgroundColor = 'white';
+                document.querySelector('body').style.color = 'black';
+                document.querySelector("#night_day").value = 'night';
+            }
+        }
+        sum(2,3);
+        document.write('1');
+        two();
+        document.write('4');
+        two();
+
+    </script>
+</body>
+</html>
