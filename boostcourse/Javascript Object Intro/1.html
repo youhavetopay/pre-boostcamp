@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <a href=""></a><a href=""></a><a href=""></a><a href=""></a>
+
+    <script>
+        var coworkers = {
+            "programmer" : "egoing",
+            "designer" : "leezche"
+        }; // 객체의 변수를 프로퍼티(property) 라고 함
+
+        // document.write(coworkers["programmer"]);
+        // document.write(coworkers.programmer);
+
+        coworkers.bookkeeper = "duru";
+
+        coworkers.showAll = function(){ // 객체 함수를 메소드
+            for(var key in this){
+                document.write(this[key] + '<br>');
+            }
+        };
+
+        coworkers.showProgrammer = function(){
+            for(var key in this){
+                if(key == "programmer"){
+                    document.write(this[key] + '<br>');
+                }
+            }
+        };
+
+        // coworkers.showProgrammer();
+        
+
+        // var countries = {
+        //     "asia" : "korea",
+        //     "europe" : "engiand"
+        // }
+
+        // for(var key in countries){
+        //     document.write(countries[key] + '<br>');
+        // }
+
+        var Body = {
+            setColor: function (color) {
+                document.querySelector('body').style.color = color;
+            },
+            setBackgroundColor: function (color) {
+                document.querySelector('body').style.backgroundColor = color;
+            }
+        }
+
+        var Links = {
+            setColor: function(color){
+                var alist = document.querySelectorAll('a');
+                var i = 0;
+                while(i < alist.length){
+                    alist[i].style.color = color;
+                    i += 1;
+                }
+            }
+        }
+
+        Body.setColor('black');
+        Links.setColor('powderblue');
+    </script>
+</body>
+</html>
