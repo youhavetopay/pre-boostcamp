@@ -8,6 +8,6 @@
 - [x] Javascript 제어문 2022.07.13
 - [x] Javascript 함수 2022.07.13
 - [x] Javascript 객체 소개 2022.07.13
-- [ ] Javascript 활용
+- [x] Javascript 활용 2022.07.13
 - [ ] Javascript 객체 기본
 - [ ] Javascript 객체 고급
