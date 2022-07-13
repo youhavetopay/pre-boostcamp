@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="night_day" type="button" value="night">
+    <a href="">1</a>
+    <a href="">2</a>
+    <a href="">3</a>
+    <a href="">4</a>
+
+    <script>
+        document.write('1');
+        if(false){
+            document.write('2');
+        } else{
+            document.write('3');
+        }
+
+        if(document.querySelector('#night_day').value == "night"){
+            document.querySelector('body').style.backgroundColor = 'black';
+            document.querySelector('body').style.color = 'white';
+            document.querySelector("#night_day").vaue = "day";
+        } else{
+            document.querySelector('body').style.backgroundColor = 'white';
+            document.querySelector('body').style.color = 'black';
+        }
+
+        var fruite = ['apple', 'banana', 'coconut'];
+        var i=0;
+        while (i < fruite.length){
+            document.write(fruite[i]);
+            i++;
+        }
+
+        var aTag = document.querySelectorAll('a');
+
+        i = 0;
+        while(i<aTag.length){
+            if (i!=0){
+                aTag[i].style.color="red";
+            }
+            i++;
+        }
+    </script>
+</body>
+</html>

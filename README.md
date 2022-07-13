@@ -5,7 +5,7 @@
 
 ### boostcourse 자바스크립트의 시작
 - [x] 웹과 Javascript
-- [ ] Javascript 제어문
+- [x] Javascript 제어문
 - [ ] Javascript 함수
 - [ ] Javascript 객체 소개
 - [ ] Javascript 활용
