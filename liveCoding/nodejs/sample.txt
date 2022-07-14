@@ -1,0 +1,5 @@
+See the POSIX readdir(3) documentation for more details.
+
+The optional options argument can be a string specifying an encoding, or an object with an encoding property specifying the character encoding to use for the filenames passed to the callback. If the encoding is set to 'buffer', the filenames returned will be passed as <Buffer> objects.
+
+If options.withFileTypes is set to true, the files array will contain <fs.Dirent> objects.
