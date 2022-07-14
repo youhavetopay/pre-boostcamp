@@ -10,4 +10,4 @@
 - [x] Javascript 객체 소개 2022.07.13
 - [x] Javascript 활용 2022.07.13
 - [x] Javascript 객체 기본 2022.07.14
-- [ ] Javascript 객체 고급
+- [x] Javascript 객체 고급 2022.07.14
